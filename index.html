@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="imagex/png" href="./src/img/logo-img.ico">
+    <link rel="stylesheet" href="./src/css/extends.css">
+
+    <title>Churras Fast</title>
+</head>
+<body>
+    <header>
+        <div class="slider__container">
+            <div class="overlay"></div>
+
+            <div class="content">
+                <img src="./src/img/logo-img.png" alt="logo" width="100rem" height="100rem">
+                <div class="texts">
+                    <h1>O Restautante com o Melhor Rodízio de Churrasco de Nova Friburgo</h1>
+                    <p>Também Vendemos com Delivery!</p>
+                </div>
+
+                <div class="texts-mobile">
+                    <h1>O Melhor Rodízio de Churrasco de Nova Friburgo</h1>
+                    <p>Também Vendemos com Delivery!</p>
+                </div>
+
+                <div class="buttons__cta">
+                    <button class="delivery-button">Pedir pelo Delivery</button>
+                    <button class="informations-button">Saiba mais sobre o Rodízio</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="initial__container">
+            <div class="geral__content">
+                <div class="left__side">
+                    <span>BEM VINDOS!</span>
+                    <h1>Conheça o Churras Fast</h1>
+                    <p>O Restautante com Melhor Rodízio de Churrasco em Nova Friburgo!</p>
+                    <p>Venha saborear todas nossas opções de churrasco em nosso Rodízio na Unidade do Centro, em nosso 
+                        Buffet na Unidade de Lumiar. Ou peça pelo Delivery!</p>
+                    <a href="#locals">
+                        <button>Conheça nossas Unidades</button>
+                    </a>
+                </div>
+                <div class="right__side">
+                    <div class="slider-arrows">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+
+                        <div class="myslider" style="display: block;">
+                            <img src="./src/img/slide-1.webp" alt="imagem 1">
+                        </div>
+
+                        <div class="myslider">
+                            <img src="./src/img/slide-2.webp" alt="imagem 2">
+                        </div>
+
+                        <div class="myslider">
+                            <img src="./src/img/slide-3.webp" alt="imagem 3">
+                        </div>
+
+                        <div class="myslider">
+                            <img src="./src/img/slide-4.webp" alt="imagem 4">
+                        </div>
+
+                        <a class="next" onclick="plusSlides(1)">&#10095</a>
+                    </div>
+                    <div class="dotsbox">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="delivery__container">
+            <div class="delivery__content">
+                <div class="left__side">
+                    <span>DELIVERY</span>
+                    <h1>Nosso Delivery</h1>
+                    <p>As melhores opções dos nossos rodízios e das nossas porções também estão isponíveis em nosso 
+                        Delivery!</p>
+                    <p>Peça agora pelo delivery com melhor custo benefício e a maior variedade em churrasco de Nova
+                        Friburgo!</p>
+                    <button>Peça Pelo Delivery</button>
+                </div>
+
+                <div class="right__side">
+                    <img src="./src/img/img-delivery.webp" alt="img-delivery">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="eat__container">
+            <div class="eat__content">
+                <div class="left__side">
+                    <img src="./src/img/slide-3.webp" alt="img-eat">
+                </div>
+
+                <div class="right__side">
+                    <span>RODÍZIO</span>
+                    <h1>Rodízio de Churrasco em Nova Friburgo</h1>
+                    <p>O Rodízio mais completo de Nova Friburgo está no Churras 
+                        Fast! Venha nos fazer uma visita em nossa unidade no 
+                        Centro e aproveitar todas nossas opções!</p>
+                    <button>Mais informações sobre o Rodízio</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="locals">
+        <div class="locals__container">
+            <div class="locals__content">
+                <div class="introduction">
+                    <span>NOSSAS UNIDADES</span>
+                    <h1>Nossas Unidades</h1>
+                </div>
+
+                <div class="units__content">
+                    <div class="first-unit">
+                        <a class="img-local" href="#">
+                            <img src="./src/img/img-centro.webp" alt="imagem-centro">
+                        </a>
+                        <a href="#" class="text">
+                            <h1>Unidade Centro</h1>
+                            <span>Rodízio e Delivery</span>
+                        </a>
+                        <a class="address" href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Centro - Nova Friburgo</p>
+                        </a>
+                    </div>
+    
+                    <div class="second-unit">
+                        <a class="img-local" href="#">
+                            <img src="./src/img/img-lumiar.webp" alt="imagem-centro">
+                        </a>
+                        <a href="#" class="text">
+                            <h1>Unidade Lumiar</h1>
+                            <span>Buffet por KG e Delivery</span>
+                        </a>
+                        <a href="#" class="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Lumiar - Nova Friburgo</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="review__container">
+            <div class="reviews__content">
+                <div class="review">
+                    <div class="perfil">
+                        <img src="./src/img/perfil-1.png" alt="perfil-1">
+                        <div class="texts-review">
+                            <h1>João Rodrigues</h1>
+                            <p>Nova Friburgo</p>
+                        </div>
+                    </div>
+
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="avaliation">
+                        <p>Uma verdadeira joia entre os restaurantes de churrasco! O Churras Fast supera as 
+                            expectativas com seu sabor autêntico, serviço rápido e ambiente acolhedor. Cada visita 
+                            é uma experiência deliciosa e memorável. Recomendado para todos os amantes de churrasco 
+                            em busca de uma refeição excepcionalmente satisfatória.</p>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <div class="perfil">
+                        <img src="./src/img/perfil-2.png" alt="perfil-1">
+                        <div class="texts-review">
+                            <h1>Bianca Ouverney</h1>
+                            <p>Nova Friburgo</p>
+                        </div>
+                    </div>
+
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="avaliation">
+                        <p>Simplesmente incrível! Fui surpreendida pelo sabor autêntico, atendimento ágil e ambiente 
+                            acolhedor. Cada momento foi uma experiência deliciosa e memorável. Recomendado para todos 
+                            que buscam uma refeição excepcional e satisfatória. Mal posso esperar para voltar!</p>
+                    </div>
+                </div>
+
+                <div class="review">
+                    <div class="perfil">
+                        <img src="./src/img/perfil-3.png" alt="perfil-1">
+                        <div class="texts-review">
+                            <h1>Renato Mendonça</h1>
+                            <p>Macaé</p>
+                        </div>
+                    </div>
+
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="avaliation">
+                        <p>Minha visita ao Churras Fast foi uma revelação! Fiquei encantado com o sabor 
+                            autêntico, o atendimento rápido e a atmosfera calorosa. Uma verdadeira joia para os 
+                            viajantes em busca de uma experiência gastronômica memorável. Sem dúvida, um destino 
+                            obrigatório em minha próxima visita à cidade!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="about">
+                    <div class="title">
+                        <div></div>
+                        <h1>Sobre Nós</h1>
+                    </div>
+                    <h2>O melhor Churrasco de Nova Friburgo</h2>
+                </div>
+
+                <div class="important-pages">
+                    <div class="title">
+                        <div></div>
+                        <h1>Páginas Importantes</h1>
+                    </div>
+                    <div class="pages">
+                        <div class="icon-text">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            <a href="#">
+                                <h2>Delivery Churras Fast</h2>
+                            </a>
+                        </div>
+
+                        <div class="icon-text">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            <a href="#">
+                                <h2>Informações do Rodízio</h2>
+                            </a>
+                        </div>
+
+                        <div class="icon-text">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            <a href="#">
+                                <h2>Fazer Reserva do Rodízio</h2>
+                            </a>
+                        </div>
+
+                        <div class="icon-text">
+                            <i class="fa-solid fa-circle-arrow-right"></i>
+                            <a href="#">
+                                <h2>Nossas Unidades</h2>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-media">
+                    <div class="title">
+                        <div></div>
+                        <h1>Redes Sociais</h1>
+                    </div>
+
+                    <div class="social">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/scripts/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/56f264159f.js" crossorigin="anonymous"></script>
+</body>
+</html>
