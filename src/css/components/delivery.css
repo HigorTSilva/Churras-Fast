@@ -1,0 +1,110 @@
+.delivery__container {
+    padding: 5rem 10rem;
+    background-color: #121212;
+}
+
+.delivery__content{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.delivery__content .left__side{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #fff;
+}
+
+.delivery__content .left__side span{
+    color: #ff9c45;
+    font-size: 14px;
+}
+
+.delivery__content .left__side h1 {
+    font-size: 48px;
+    font-family: "Comic Sans MS", sans-serif;
+    font-weight: 600;
+}
+
+.delivery__content .left__side p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    width: 90%;
+}
+
+.delivery__content .left__side button {
+    border: none;
+    background-color: #fc4821;
+    border-radius: 26px;
+    padding: 12px 1rem;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.delivery__content .left__side button:hover, 
+.delivery__content .left__side button:focus {
+    background-color: #c13a1c;
+} 
+
+.delivery__content .right__side {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+}
+
+.delivery__content .right__side img {
+    width: 25rem;
+}
+
+@media screen and (max-width:1068px) {
+    .delivery__container{
+        padding: 5rem 7.5rem;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .delivery__container{
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .delivery__container{
+        padding: 3rem;
+    }
+
+    .delivery__content .left__side p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px){
+    .delivery__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .delivery__content .left__side {
+        align-items: center;
+        text-align: center;
+    }
+
+    .delivery__content .right__side{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:500px){
+    .delivery__content .right__side img {
+        width: 20rem;
+    }
+}

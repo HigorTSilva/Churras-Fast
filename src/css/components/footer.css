@@ -1,0 +1,126 @@
+.footer__container {
+    padding: 5rem 10rem;
+    background-color: #0a0a12;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6rem;
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.title div {
+    height: 1.5rem;
+    width: 3px;
+    background-color: #fc4821;
+}
+
+.title h1 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about h2 {
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+
+.important-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.important-pages .pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.important-pages .pages .icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.important-pages .pages .icon-text a {
+    text-decoration: none;
+    color: #fff;
+    transition: .2s linear;
+}
+
+.important-pages .pages .icon-text a:hover {
+    color: #ff9c45;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.social-media .social {
+    display: flex;
+    flex-direction: row;
+    font-size: 26px;
+    gap: 2rem;
+}
+
+.social-media .social a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2s linear;
+}
+
+.social-media .social a:hover {
+    color: #ff9c45;
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width:1068px) {
+    .footer__container{
+        padding: 5rem 7.5rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .footer__container{
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .title {
+        gap: .5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .footer__container{
+        padding: 3rem;
+    }
+}

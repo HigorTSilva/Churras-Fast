@@ -1,0 +1,13 @@
+@import "./reset.css";
+@import "./global.css";
+
+@import "./components/header.css";
+@import "./components/initial.css";
+@import "./components/delivery.css";
+@import "./components/eat.css";
+@import "./components/locals.css";
+@import "./components/reviews.css";
+@import "./components/footer.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
