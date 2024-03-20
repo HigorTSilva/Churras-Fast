@@ -5,7 +5,7 @@ let counter = 1;
 slideFun(counter);
 
 function plusSlides(n) {
-    counter += 1;
+    counter += n;
     slideFun(counter);
 }
 
